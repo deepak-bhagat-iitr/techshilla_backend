@@ -15,7 +15,7 @@ require('./config/passport')
 app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 app.use(cors({
-    origin: 'http://localhost:3000', // Allow requests from this origin
+    origin: 'https://techshilla-frontend.onrender.com/', // Allow requests from this origin
     methods: ['GET', 'POST', 'PUT'], // Allow these HTTP methods
     credentials: true
 }));
